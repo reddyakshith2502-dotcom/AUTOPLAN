@@ -1,0 +1,13 @@
+algorithm,total_vehicles,completed_vehicles,completion_rate_pct,avg_travel_time_sec,avg_distance_m,avg_risk_exposure,total_replannings,scenario,algorithm_label
+dijkstra,10,10,100.0,86.67,1100.0,0.11,0,"Scenario A (10 Vehicles, Normal Traffic)",Dijkstra (Baseline 1)
+astar,10,10,100.0,86.67,1100.0,0.11,0,"Scenario A (10 Vehicles, Normal Traffic)",Standard A* (Baseline 2)
+proposed,10,10,100.0,86.67,1100.0,0.11,1,"Scenario A (10 Vehicles, Normal Traffic)",Proposed ML-Driven Risk-Aware A*
+dijkstra,20,20,100.0,79.17,1000.0,0.1,0,"Scenario B (20 Vehicles, Moderate Congestion)",Dijkstra (Baseline 1)
+astar,20,20,100.0,79.17,1000.0,0.1,0,"Scenario B (20 Vehicles, Moderate Congestion)",Standard A* (Baseline 2)
+proposed,20,20,100.0,79.17,1000.0,0.1,2,"Scenario B (20 Vehicles, Moderate Congestion)",Proposed ML-Driven Risk-Aware A*
+dijkstra,30,30,100.0,86.11,1050.0,0.105,0,"Scenario C (30 Vehicles, Road Blockages)",Dijkstra (Baseline 1)
+astar,30,30,100.0,90.56,1050.0,0.105,0,"Scenario C (30 Vehicles, Road Blockages)",Standard A* (Baseline 2)
+proposed,30,30,100.0,86.11,1050.0,0.105,5,"Scenario C (30 Vehicles, Road Blockages)",Proposed ML-Driven Risk-Aware A*
+dijkstra,50,50,100.0,80.33,990.0,0.099,0,"Scenario D (50 Vehicles, Multi-Blockage & Risk Spikes)",Dijkstra (Baseline 1)
+astar,50,50,100.0,83.0,990.0,0.099,0,"Scenario D (50 Vehicles, Multi-Blockage & Risk Spikes)",Standard A* (Baseline 2)
+proposed,50,50,100.0,80.33,990.0,0.099,7,"Scenario D (50 Vehicles, Multi-Blockage & Risk Spikes)",Proposed ML-Driven Risk-Aware A*

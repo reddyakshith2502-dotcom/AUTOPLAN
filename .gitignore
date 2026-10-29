@@ -1,0 +1,30 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Large Datasets (>100MB exceeds GitHub file upload limit)
+processed/ngsim_clean.csv
+processed/ngsim_features.csv
+processed/risk_dataset.csv
+processed/collision_risk_dataset.csv
+processed/travel_time_dataset.csv
+
+# Large Model Binary (>800MB exceeds GitHub file upload limit)
+# Note: Can be reproduced using python code/05_train_travel_model.py
+models/travel_time_model.pkl
+
+# System and editor files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+.streamlit/
