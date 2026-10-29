@@ -27,4 +27,3 @@ models/travel_time_model.pkl
 *.log
 .DS_Store
 Thumbs.db
-.streamlit/
